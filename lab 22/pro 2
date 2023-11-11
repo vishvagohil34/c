@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main (){
+    int count=0,i;
+    int h[5],w[5];
+    for(i=0;i<5;i++)
+    {
+        printf("height : ");
+        scanf("%d",&h[i]);
+        printf("weight : ");
+        scanf("%d",&w[i]);
+        if(h[i]>170 && w[i]<50)
+        {
+            count++;
+        }
+    }
+    printf("enter the number of person : %d",count);
+}
